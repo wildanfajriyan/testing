@@ -1,35 +1,66 @@
-Apa itu Git?
-Git adalah sistem kontrol versi (Version Control System) terdistribusi yang digunakan untuk melacak perubahan dalam kode program selama pengembangan perangkat lunak.
+📱 HealthyTrack – aplikasi mobile untuk memantau pola makan, olahraga, dan kesehatan harian.
 
-Istilah-Istilah Penting
-- Repository (repo): Tempat penyimpanan proyek.
-- Commit: Menyimpan snapshot perubahan ke dalam repository.
-- Branch: Jalur pengembangan paralel dari satu project.
-- Merge: Menggabungkan perubahan dari satu branch ke branch lain.
-- Clone: Mengunduh salinan repo dari remote ke lokal.
-- Push: Mengirim perubahan dari lokal ke remote.
-- Pull: Mengambil perubahan terbaru dari remote ke lokal.
-- Remote: Repository yang tersimpan di server (misalnya GitHub).
+📘 Knowledge Base – HealthyTrack
+1. Informasi Umum Produk
 
-Perintah Git Dasar
-git init                       # Inisialisasi repository baru  
-git add <nama_file>           # Menambahkan file ke staging  
-git add .                     # Menambahkan semua file  
-git commit -m "Pesan"         # Commit dengan pesan  
-git status                    # Cek status  
-git log                       # Lihat riwayat  
-git branch <nama_branch>      # Buat branch  
-git checkout <nama_branch>    # Pindah branch  
-git merge <nama_branch>       # Gabungkan branch  
-git remote add origin <url>   # Tambah remote  
-git push -u origin main       # Push ke remote  
-git pull                      # Ambil update dari remote
+Nama Produk: HealthyTrack
 
-Tips & Best Practices
-- Beri pesan commit yang jelas.
-- Gunakan .gitignore untuk file yang tidak perlu.
-- Gunakan branch untuk fitur atau bugfix.
-- Selalu pull sebelum mulai bekerja.
+Deskripsi: HealthyTrack adalah aplikasi kesehatan yang membantu pengguna memantau aktivitas harian, asupan nutrisi, dan progres kebugaran secara real-time.
 
-Penutup
-Git membantu pengembang melacak, mengatur, dan berkolaborasi dalam proyek secara efisien. Memahami Git adalah langkah awal menjadi developer profesional.
+Tujuan/Manfaat: Membantu pengguna membangun gaya hidup sehat dengan mempermudah pencatatan makanan, olahraga, dan kesehatan.
+
+Target Pengguna: Individu yang ingin menjaga kesehatan, mulai dari pemula hingga atlet.
+
+2. Panduan Pengguna (User Guide)
+Cara Memulai
+
+Unduh aplikasi di Google Play atau App Store.
+
+Buat akun dengan email atau login menggunakan Google/Apple.
+
+Isi profil kesehatan (tinggi, berat, usia, tujuan).
+
+Fitur Utama
+
+Food Tracker: Catat makanan harian, otomatis hitung kalori & nutrisi.
+
+Workout Log: Rekam aktivitas olahraga manual atau sinkron dengan smartwatch.
+
+Health Dashboard: Pantau kalori masuk/keluar, grafik berat badan, dan progres target.
+
+Reminder: Notifikasi minum air, olahraga, atau jam tidur.
+
+3. FAQ
+
+Q: Apakah aplikasi ini gratis?
+A: Ya, tersedia versi gratis. Namun ada fitur premium seperti analisis nutrisi lanjutan.
+
+Q: Apakah bisa dihubungkan dengan smartwatch?
+A: Ya, bisa sinkronisasi dengan Fitbit, Garmin, dan Apple Watch.
+
+Q: Apakah data saya aman?
+A: Data pengguna dienkripsi dan tidak dibagikan ke pihak ketiga.
+
+4. Troubleshooting
+
+Tidak bisa login → Pastikan koneksi internet stabil. Jika lupa password, gunakan fitur Forgot Password.
+
+Data makanan tidak muncul → Coba perbarui aplikasi ke versi terbaru.
+
+Aplikasi force close → Hapus cache aplikasi atau reinstall.
+
+5. Dokumentasi Teknis (Untuk Developer/Pengguna Teknis)
+
+API: Developer dapat mengakses API untuk menarik data kesehatan pengguna (hanya untuk mitra resmi).
+
+Integrasi: Mendukung integrasi dengan Google Fit & Apple HealthKit.
+
+6. Kebijakan & Dukungan
+
+Garansi: Aplikasi selalu mendapatkan update minimal sekali per bulan.
+
+Refund: Jika berlangganan premium dan tidak puas, refund bisa diajukan dalam 7 hari.
+
+Dukungan:
+
+Email: support@healthytrack.com
