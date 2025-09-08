@@ -1,0 +1,35 @@
+Apa itu Git?
+Git adalah sistem kontrol versi (Version Control System) terdistribusi yang digunakan untuk melacak perubahan dalam kode program selama pengembangan perangkat lunak.
+
+Istilah-Istilah Penting
+- Repository (repo): Tempat penyimpanan proyek.
+- Commit: Menyimpan snapshot perubahan ke dalam repository.
+- Branch: Jalur pengembangan paralel dari satu project.
+- Merge: Menggabungkan perubahan dari satu branch ke branch lain.
+- Clone: Mengunduh salinan repo dari remote ke lokal.
+- Push: Mengirim perubahan dari lokal ke remote.
+- Pull: Mengambil perubahan terbaru dari remote ke lokal.
+- Remote: Repository yang tersimpan di server (misalnya GitHub).
+
+Perintah Git Dasar
+git init                       # Inisialisasi repository baru  
+git add <nama_file>           # Menambahkan file ke staging  
+git add .                     # Menambahkan semua file  
+git commit -m "Pesan"         # Commit dengan pesan  
+git status                    # Cek status  
+git log                       # Lihat riwayat  
+git branch <nama_branch>      # Buat branch  
+git checkout <nama_branch>    # Pindah branch  
+git merge <nama_branch>       # Gabungkan branch  
+git remote add origin <url>   # Tambah remote  
+git push -u origin main       # Push ke remote  
+git pull                      # Ambil update dari remote
+
+Tips & Best Practices
+- Beri pesan commit yang jelas.
+- Gunakan .gitignore untuk file yang tidak perlu.
+- Gunakan branch untuk fitur atau bugfix.
+- Selalu pull sebelum mulai bekerja.
+
+Penutup
+Git membantu pengembang melacak, mengatur, dan berkolaborasi dalam proyek secara efisien. Memahami Git adalah langkah awal menjadi developer profesional.
